@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.navigation {
+    margin: 2em;
+}
+
+.navigation_link {
+    padding: 0 1em 0 1em;
+}
+
+.tipList {
+flex-basis: 20%
+}
+.bordered {
+    border: 1px dashed goldenrod;
+}
+
+.fishList {
+    flex-basis: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fish__image {
+    width: 8rem;
+    height: 8rem;
+}
+
+
+.tip {
+    margin: 2rem 0 2rem 0;
+}
+
+.harvestList {
+    flex-basis: 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.harvest__image {
+    width: 8rem;
+    height: 8rem;
+}
+body 
+{
+    background-color: whitesmoke;
+}
