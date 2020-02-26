@@ -1,0 +1,35 @@
+.navigation {
+    margin: 2em;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 8px;
+    padding: 20px;
+     background-color: whitesmoke;
+}
+
+.navigation_link {
+    padding: 12 6em 12 6em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+
+#banner {
+    background-image: url("https://freedesignfile.com/upload/2018/04/Ocean-underwater-world-coral-reef-tropical-fish-Stock-Photo-03.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+  }
+
+  #banner .content h1 {
+    border: 3px solid white;
+    background-color: white ;
+    opacity: .5;
+    position: relative;
+    top: 50px;
+    width: 900px;
+    margin: 0 auto;
+  }

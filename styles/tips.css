@@ -1,0 +1,15 @@
+.tipList {
+    flex-basis: 20%;
+    background-color: whitesmoke;
+    padding: 2%;
+    font-size: 14px;
+    line-height: 48px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    }
+  
+    
+    
+    .tip {
+        margin: 2rem 0 2rem 0;
+    }
