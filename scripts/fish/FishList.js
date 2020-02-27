@@ -16,6 +16,7 @@ const FishList = () => {
     const fishes = useFish()
 
     // iterate the array
+    const contentElement = document.querySelector(".fishList")
 
     for (const fishObject of fishes) {
         //convert each object to HTML representation 
@@ -24,7 +25,6 @@ const FishList = () => {
     
     // put HTML in DOM 
 
-    const contentElement = document.querySelector(".fishList")
   
 }
 
