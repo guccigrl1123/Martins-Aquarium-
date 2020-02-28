@@ -1,15 +1,12 @@
 const Tip = (tip) => {
     return `
-        <div class="tip">
+        <ol class="tip">
     
-            <div class="tip__title">${tip.title}</div>
-            <button id="button--${tip.title}">More Info</button>
+            <li class="tip__title">${tip.title}</li>
+            <li class="tip__tip">${tip.tip}</li>
+        </ol>
 
-            <dialog class="dialog--fish" id="details--${tip.tip_}">
-                <div>Tip1: ${tip.tip_}</div>
-                <button class="button--close">Close Dialog</button>
-            </dialog>
-        </div>
+
     `
 }
 

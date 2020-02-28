@@ -1,10 +1,12 @@
+@import 'locations.css';
 @import 'nav.css';
 @import 'fish.css';
 @import 'tips.css';
 
+
 h1 
 {
-padding: 3%;
+padding:3%;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 text-transform: uppercase;
 font-size: 60px;
@@ -15,7 +17,7 @@ opacity: .75;
 background-color: whitesmoke;
 }
 
-h3
+h2
 {
 padding: 3%;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -25,6 +27,30 @@ color: #33333b;
 font-weight: 600px;
 letter-spacing: 4px;
 }
+
+h3
+{
+padding:3%;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-transform: uppercase;
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 4px;
+opacity: .75;
+background-color: whitesmoke;
+}
+
+h4
+{
+padding: 3%;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+/* text-transform: uppercase; */
+font-size: 15px;
+color: #33333b;
+letter-spacing: 4px;
+line-height: 20pt;
+}
+
 
 .container{
     display: flex;
@@ -36,45 +62,12 @@ letter-spacing: 4px;
     border: 5px solid whitesmoke;
 }
 
-.harvest {
-   display: flex;
-    flex-flow: column;
-    background-color: whitesmoke;
-    padding: 5%;
-    margin: 1em 1em 1em 1em;
-}
-
-.harvestList {
-    flex-basis: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 14px;
-    line-height: 22px;
-    padding: 20px 30px;
-    margin: 30px 20px;
-}
-.harvest__image {
-    width: 8rem;
-    height: 8rem;
-}
 body 
 {
  
     display: inline-table;
 }
 
-.quotes 
-{
-    flex-basis: 20%;
-    flex-wrap: wrap;
-    background-color: whitesmoke;  
-    margin: 2em 2em 2em 2em;
-}
-.quotes_image
-{
-    width: 17rem;
-    height: 10rem;
-}
 
 .share {
     border: 1px solid LightGrey;
@@ -110,4 +103,9 @@ body
     align-content: center ;
     box-shadow: 2.5px 5px #D8DADA;
 
+  }
+
+  button:hover {
+    background-color: rgb(153, 151, 151);
+    border-color: #004E89;
   }
