@@ -12,7 +12,7 @@ const LocationList = () => {
 
     // iterate the array
 
-    const contentElement = document.querySelector(".harvestList")
+    const contentElement = document.querySelector(".locationList")
     
     for (const locationObject of locations) {
         //convert each object to HTML representation 

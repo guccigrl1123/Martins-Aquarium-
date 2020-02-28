@@ -11,55 +11,19 @@ const initializeDetailButtonEvents = () => {
             }
         )
     }
-    // CAN'T TOUCH THIS - END
 
+ const allDetailButtons = document.querySelectorAll("button[id^='button--']")
 
-    // You will be writing code below this line
- document.querySelector("#button--Betty").addEventListener(
+ for (const btn of allDetailButtons) {
+    btn.addEventListener(
         "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--Betty")
+        theEvent => {
+            const dialogSiblingSelector = `#${theEvent.target.id}+dialog`
+            const theDialog = document.querySelector(dialogSiblingSelector)
             theDialog.showModal()
         }
     )
-
-    document.querySelector("#button--Nemo").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--Nemo")
-            theDialog.showModal()
-        }
-    )
-
-    document.querySelector("#button--Dory").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--Dory")
-            theDialog.showModal()
-        }
-    )
-    document.querySelector("#button--Lucy").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--Lucy")
-            theDialog.showModal()
-        }
-    )
-    document.querySelector("#button--Nicolas").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--Nicolas")
-            theDialog.showModal()
-        }
-    )
-
-    document.querySelector("#button--Jules").addEventListener(
-        "click",
-        theClickEvent => {
-            const theDialog = document.querySelector("#details--Jules")
-            theDialog.showModal()
-        }
-    )
+}
 }
 
 
