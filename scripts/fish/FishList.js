@@ -13,7 +13,6 @@ const FishList = () => {
 
     // get the data from the provider
 
-const fishes = useFish()
 const mostHolyFishArray= mostHolyFish() 
 const soldierFishArray= soldierFish()
 const nonHolyFishArray= nonHolyFish()

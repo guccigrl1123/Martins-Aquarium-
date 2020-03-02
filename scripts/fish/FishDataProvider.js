@@ -57,14 +57,19 @@ const fishCollection = [
 export const useFish = () => {
     return fishCollection.slice()
 }
-
+//defining and exporting a function called mostHolyFish
 export const mostHolyFish = () => {
+//defining an array to store fish with a length of multiple of 3
     const holyFishArray=[]
+//iterating over the fish
     for (const holyFish of fishCollection) {
+//checking if the length of the fish is divisble by 3
         if (holyFish.length % 3 === 0) {
+//if it that's true, push that fish into the array of holyFish
            holyFishArray.push(holyFish)  
         }   
 }
+//when everything is done above, the last the thing executed is returning the array
     return holyFishArray
 }   
 
